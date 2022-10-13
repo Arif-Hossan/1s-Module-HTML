@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <Form>
+        <fieldset>
+            <legend>Contact me</legend>
+
+            <label>Name:</label>
+            <input type="text" name="name">
+            <br><br>
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br><br>
+            <label>Number:</label>
+            <input type="tel">
+            <br><br>
+            <label>Gender:</label>
+            <input type="checkbox"><label>Man</label>
+            <input type="checkbox"><label>Women</label>
+            <br><br>
+            <label>Skills:</label>
+            <input type="radio"><label>HTML5</label>
+            <input type="radio"><label>CSS3</label>
+            <input type="radio"><label>PHP</label>
+            <input type="radio"><label>Laravel</label>
+            <br><br>
+            <label>Favorite Color:</label>
+            <input type="color">
+            <br><br>
+            <label>Favorite Time:</label>
+            <input type="time">
+            <br><br>
+            <label>Favorite Month:</label>
+            <input type="month">
+            <br><br>
+            <label>Birthday:</label>
+            <input type="date">
+            <br><br>
+            <label>Salary Range:</label>
+            <input type="range" min="10000" max="35000">
+            <br><br>
+            <label>Git link:</label>
+            <input type="url">
+            <br><br>
+            <label>Photo:</label>
+            <input type="file" accept="image/*">
+            <br><br>
+            <label>CV:</label>
+            <input type="file" accept=".pdf, .doc">
+            <br><br><br><br>
+            <input type="reset">
+            <input type="submit">
+        </fieldset>
+    </Form>
+
+    <!-- <div>
+        <h4>Example auto-moving html element</h4>
+<p>Try to click on the following button.</p>
+
+<button id='btn_test'>Catch Me</button>
+<script>
+//sets a random absolute position to a html element; receives the html element
+function moveElmRand(elm){
+ elm.style.position ='absolute';
+ elm.style.top = Math.floor(Math.random()*90+5)+'%';
+ elm.style.left = Math.floor(Math.random()*90+5)+'%';
+}
+
+//get the #btn_test
+var btn_test = document.querySelector('#btn_test');
+
+//register to call moveElmRand() on mouseenter event to #btn_test
+btn_test.addEventListener('mouseenter', function(e){ moveElmRand(e.target);});
+
+//register click to #btn_test
+btn_test.addEventListener('click', function(e){ alert('You are Good.');});
+</script>
+    </div> -->
+</body>
+
+</html>
